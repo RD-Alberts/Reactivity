@@ -3,6 +3,9 @@ A full-stack web app built with [C#](https://learn.microsoft.com/en-us/dotnet/cs
 
 This project is part of a course I’m following to expand my React skills and see how it’s used in the community. Backend is in C#, which makes it a fun combo for me to practice both.
 
+**⚠️ Note:** This project requires **Node.js 22.14 or higher**.
+
+
 <br />
 
 ## 🧠 What It Does
@@ -29,6 +32,9 @@ You can host an activity or join one. Activities have genres, dates, and other d
 ![React Calendar](https://img.shields.io/badge/React%20Calendar-61DAFB?style=for-the-badge)
 ![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
 ![React Query Devtools](https://img.shields.io/badge/React%20Query%20Devtools-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![React Toastify](https://img.shields.io/badge/React%20Toastify-FF6B00?style=for-the-badge)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-8C52FF?style=for-the-badge)
 
 <br />
 
