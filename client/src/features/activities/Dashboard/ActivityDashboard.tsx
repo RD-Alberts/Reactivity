@@ -1,46 +1,15 @@
-import { Grid2 } from "@mui/material";
+import { Grid2,  } from "@mui/material";
 import { ActivityList } from "./ActivityList";
-import { ActivityDetails } from "./details/ActivityDetails";
-import { ActivityForm } from "../form/ActivityForm";
+import { ActivityFilters } from "./ActivityFilters";
+export const ActivityDashboard = () => {
 
-type Props = {
-  activities: Activity[];
-  selectActivity: (id: string) => void;
-  canelSelectActivity: () => void;
-  selectedActivity?: Activity;
-  openForm: (id: string) => void;
-  closeForm: () => void;
-  editMode: boolean;
-  submitForm: (activity:Activity) =>  void;
-  deleteActivity: (id:string) => void;
-};
-
-export const ActivityDashboard = ({
-  activities,
-  canelSelectActivity,
-  selectActivity,
-  selectedActivity,
-  openForm,
-  closeForm,
-  editMode,
-  submitForm,
-  deleteActivity
-}: Props) => {
   return (
     <Grid2 container spacing={3}>
-      <Grid2 size={7}>
-        <ActivityList activities={activities} selectActivity={selectActivity} deleteActivity={deleteActivity} />
+      <Grid2 size={8}>
+        <ActivityList />
       </Grid2>
-      <Grid2 size={5}>
-        {selectedActivity && !editMode && (
-          <ActivityDetails
-            activitiy={selectedActivity}
-            canelSelectActivity={canelSelectActivity}
-            openForm={openForm}
-            
-          />
-        )}
-        {editMode && <ActivityForm closeForm={closeForm} activity={selectedActivity}  submitForm={submitForm} />}
+      <Grid2 size={4}>
+        <ActivityFilters />
       </Grid2>
     </Grid2>
   );
