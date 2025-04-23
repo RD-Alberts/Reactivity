@@ -19,6 +19,8 @@ You can host an activity or join one. Activities have genres, dates, and other d
 ### Backend
 ![C#](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET 9](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Mediator](https://img.shields.io/badge/Mediator-6A1577?style=for-the-badge)
+![AutoMapper](https://img.shields.io/badge/AutoMapper-E10098?style=for-the-badge)
 
 ### Frontend
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -32,6 +34,7 @@ You can host an activity or join one. Activities have genres, dates, and other d
 ![React Calendar](https://img.shields.io/badge/React%20Calendar-61DAFB?style=for-the-badge)
 ![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
 ![React Query Devtools](https://img.shields.io/badge/React%20Query%20Devtools-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![MobX](https://img.shields.io/badge/MobX-EF3A3A?style=for-the-badge&logo=mobx&logoColor=white)
 ![React Toastify](https://img.shields.io/badge/React%20Toastify-FF6B00?style=for-the-badge)
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-8C52FF?style=for-the-badge)
