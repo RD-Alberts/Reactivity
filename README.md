@@ -38,6 +38,7 @@ You can host an activity or join one. Activities have genres, dates, and other d
 ![React Toastify](https://img.shields.io/badge/React%20Toastify-FF6B00?style=for-the-badge)
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-8C52FF?style=for-the-badge)
+![React Leaflet](https://img.shields.io/badge/React%20Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 
 <br />
 
