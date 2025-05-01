@@ -39,6 +39,8 @@ You can host an activity or join one. Activities have genres, dates, and other d
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-8C52FF?style=for-the-badge)
 ![React Leaflet](https://img.shields.io/badge/React%20Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
+![React Dropzone](https://img.shields.io/badge/React%20Dropzone-3F72AF?style=for-the-badge)
+![React Cropper](https://img.shields.io/badge/React%20Cropper-FFA500?style=for-the-badge&logo=crop&logoColor=white)
 
 <br />
 
