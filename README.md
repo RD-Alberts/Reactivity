@@ -8,6 +8,20 @@ This project is part of a course I’m following to expand my React skills and s
 
 <br />
 
+## 📦 Installation
+
+Make sure you have **Node.js v22.14+** installed.
+
+Then run the following commands to install the dependencies:
+
+```bash
+npm install
+npm install -D vite-plugin-mkcert
+```
+
+**⚠️ Note:**  **ℹ️ vite-plugin-mkcert is used for creating local HTTPS certificates.**.
+<br />
+
 ## 🧠 What It Does
 
 You can host an activity or join one. Activities have genres, dates, and other details. Great for testing out full-stack logic with real-world features like filters, calendars, and data fetching.
