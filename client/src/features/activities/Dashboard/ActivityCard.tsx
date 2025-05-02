@@ -27,7 +27,7 @@ export const ActivityCard = ({ activity }: Props) => {
       <Box display="flex" alignItems="center" justifyContent="space-between">
         {/* using slotprops as the docs reccommend instead of titleTypographyProps as it is deprecated*/}
         <CardHeader
-          avatar={<Avatar sx={{ height: 80, width: 80 }} />}
+          avatar={<Avatar src={activity.hostImageUrl} alt="image of host" sx={{ height: 80, width: 80 }} />}
           title={activity.title}
           slotProps={{ fontWeight: "bold", fontSize: 20 }}
           subheader={
