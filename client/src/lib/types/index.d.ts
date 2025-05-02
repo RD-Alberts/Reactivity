@@ -25,7 +25,7 @@ type Profile = {
 }
 
 type Photo = {
-  id:string,
+  id:string
   url:string
 }
 

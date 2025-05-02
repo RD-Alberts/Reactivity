@@ -1,6 +1,6 @@
 import { Box, Paper, Tab, Tabs } from "@mui/material";
 import { SyntheticEvent, useState } from "react";
-import { ProfilePhotos } from "./ProfilePhotos";
+import ProfilePhotos from "./ProfilePhotos";
 
 export const ProfileContent = () => {
   const [value, setValue] = useState(0);
