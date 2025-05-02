@@ -19,7 +19,7 @@ npm install
 npm install -D vite-plugin-mkcert
 ```
 
-**⚠️ Note:**  **ℹ️ vite-plugin-mkcert is used for creating local HTTPS certificates.**.
+**⚠️ Note:**  **vite-plugin-mkcert is used for creating local HTTPS certificates.**.
 <br />
 
 ## 🧠 What It Does
