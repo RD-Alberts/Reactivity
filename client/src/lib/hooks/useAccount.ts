@@ -12,41 +12,41 @@ export const useAccount = () => {
 
   const loginUser = useMutation({
     mutationFn: async (creds: LoginSchema) => {
-      await agent.post("/login?useCookies=true", creds);
+      await agent.post('/login?useCookies=true', creds);
     },
     onSuccess: async () => {
       await queryClient.invalidateQueries({
-        queryKey: ["user"],
+        queryKey: ['user'],
       });
     },
   });
 
   const { data: currentUser, isLoading: loadingUserInfo } = useQuery({
-    queryKey: ["user"],
+    queryKey: ['user'],
     queryFn: async () => {
-      const response = await agent.get<User>("/account/user-info");
+      const response = await agent.get<User>('/account/user-info');
       return response.data;
     },
-    enabled: !queryClient.getQueryData(["user"]) && location.pathname !== '/login' && location.pathname !== '/register',
+    enabled: !queryClient.getQueryData(['user']) && location.pathname !== '/login' && location.pathname !== '/register',
   });
 
   const registerUser = useMutation({
     mutationFn: async (creds: RegisterSchema) => {
-      await agent.post("/account/register", creds);
+      await agent.post('/account/register', creds);
     },
     onSuccess: () => {
       toast.success("Register successful - you can now login");
-      navigate("/login");
+      navigate('/login');
     },
   });
 
   const logoutUser = useMutation({
     mutationFn: async () => {
-      await agent.post("/account/logout");
+      await agent.post('/account/logout');
     },
     onSuccess: () => {
-      queryClient.removeQueries({ queryKey: ["user"] });
-      queryClient.removeQueries({ queryKey: ["activities"] });
+      queryClient.removeQueries({ queryKey: ['user'] });
+      queryClient.removeQueries({ queryKey: ['activities'] });
       navigate("/");
     },
   });
