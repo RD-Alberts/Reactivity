@@ -6,10 +6,10 @@ import StyledButton from "../../../../app/shared/components/StyledButton";
 
 type Props = {
   activity: Activity;
-}
+};
 
-export const ActivityDetailsHeader = ({activity} : Props) => {
-  const {updateAttendance} = useActivities(activity.id);
+export const ActivityDetailsHeader = ({ activity }: Props) => {
+  const { updateAttendance } = useActivities(activity.id);
 
   return (
     <Card
@@ -22,7 +22,13 @@ export const ActivityDetailsHeader = ({activity} : Props) => {
     >
       {activity.isCancelled && (
         <Chip
-          sx={{ position: "absolute", left: 40, top: 20, zIndex: 1000, borderRadius: 1 }}
+          sx={{
+            position: "absolute",
+            left: 40,
+            top: 20,
+            zIndex: 1000,
+            borderRadius: 1,
+          }}
           color="error"
           label="Cancelled"
         />
@@ -49,13 +55,14 @@ export const ActivityDetailsHeader = ({activity} : Props) => {
           boxSizing: "border-box",
         }}
       >
-        
         {/* Text Section */}
         <Box>
           <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-           {activity.title}
+            {activity.title}
           </Typography>
-          <Typography variant="subtitle1">{formatDate(activity.date) }</Typography>
+          <Typography variant="subtitle1">
+            {formatDate(activity.date)}
+          </Typography>
           <Typography variant="subtitle2">
             Hosted by{" "}
             <Link
@@ -77,7 +84,9 @@ export const ActivityDetailsHeader = ({activity} : Props) => {
                 onClick={() => updateAttendance.mutate(activity.id)}
                 disabled={updateAttendance.isPending}
               >
-                {activity.isCancelled ? "Re-activate Activity" : "Cancel Activity"}
+                {activity.isCancelled
+                  ? "Re-activate Activity"
+                  : "Cancel Activity"}
               </StyledButton>
               <StyledButton
                 variant="contained"

@@ -3,8 +3,8 @@ import { useParams } from "react-router";
 import { useActivities } from "../../../../lib/hooks/useActivities";
 import { ActivityDetailsHeader } from "./ActivityDetailsHeader";
 import { ActivityDetailsInfo } from "./ActivityDetailsInfo";
-import { ActivityDetailsChat } from "./ActivityDetailsChat";
 import { ActivityDetailsSidebar } from "./ActivityDetailsSidebar";
+import ActivityDetailsChat from "./ActivityDetailsChat";
 
 export const ActivityDetailsPage = () => {
   const {id} = useParams();
