@@ -33,6 +33,7 @@ You can host an activity or join one. Activities have genres, dates, and other d
 ### Backend
 ![C#](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET 9](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+[![SignalR](https://img.shields.io/badge/SignalR-0082C9?style=for-the-badge)](https://learn.microsoft.com/aspnet/core/signalr/introduction)
 ![Mediator](https://img.shields.io/badge/Mediator-6A1577?style=for-the-badge)
 ![AutoMapper](https://img.shields.io/badge/AutoMapper-E10098?style=for-the-badge)
 
