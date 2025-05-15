@@ -57,6 +57,8 @@ You can host an activity or join one. Activities have genres, dates, and other d
 [![React Dropzone](https://img.shields.io/badge/React%20Dropzone-3F72AF?style=for-the-badge)](https://react-dropzone.js.org/)
 [![React Cropper](https://img.shields.io/badge/React%20Cropper-FFA500?style=for-the-badge&logo=crop&logoColor=white)](https://react-cropper.github.io/react-cropper/)
 [![SignalR JS](https://img.shields.io/badge/@microsoft%2Fsignalr-0078D7?style=for-the-badge&logo=microsoft&logoColor=white)](https://www.npmjs.com/package/@microsoft/signalr)
+[![React Intersection Observer](https://img.shields.io/badge/React%20Intersection%20Observer-663399?style=for-the-badge)](https://github.com/thebuilder/react-intersection-observer)
+
 
 <br />
 
